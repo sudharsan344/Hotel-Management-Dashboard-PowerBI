@@ -31,7 +31,7 @@ The project demonstrates end-to-end business intelligence by connecting Power BI
 
 # 📊 Dashboard Preview
 
-![Hotel Management Dashboard](Dashboard_Overview.png)
+![Dashboard Overview](Dashboard_Overview.png)
 
 ---
 
