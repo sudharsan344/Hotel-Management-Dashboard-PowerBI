@@ -1,6 +1,6 @@
 
 
-create table eeee(
+create table Hotel(
 
     hotel_id INT PRIMARY KEY,
     hotel_code INT,
@@ -59,8 +59,8 @@ create table eeee(
     has_parking BOOLEAN,
     has_restaurant BOOLEAN
 );
-select*from eeee
-INSERT INTO eeee (
+select*from  Hotel
+INSERT INTO  Hotel (
     hotel_id,
     hotel_code,
     hotel_name,
@@ -290,7 +290,7 @@ FROM numbers;
 
 
 
-select*from eeee
+select*from Hotel
 
 
 
