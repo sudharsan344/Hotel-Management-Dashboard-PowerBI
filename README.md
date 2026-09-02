@@ -37,16 +37,12 @@ The project transforms raw hotel booking data into meaningful business insights 
 
 The dashboard includes **10+ KPIs**, including:
 
-* 💰 Total Revenue
+
 * 📈 Total Profit
 * 🏨 Total Bookings
-* 👥 Total Customers/Guests
-* 🛏️ Occupancy Rate
 * ❌ Cancellation Rate
-* 💵 Average Daily Rate (ADR)
-* 📊 Average Revenue
-* 📅 Monthly Booking Trends
-* 📉 Profit Margin
+* 📊 Average Rating
+
 
 ---
 
