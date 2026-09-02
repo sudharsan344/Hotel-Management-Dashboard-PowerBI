@@ -1,122 +1,247 @@
-# 🏨 Hotel Management Analytics Dashboard using Power BI
+# 🏨 Hotel Management Analytics Dashboard
 
-## 📌 Project Overview
+## 📊 Project Overview
 
-This project is an interactive Hotel Management Analytics Dashboard developed using **Power BI**, **SQL**, and **Snowflake**. The dashboard provides valuable insights into hotel performance by analyzing revenue, occupancy, customer ratings, profit, bookings, and regional trends.
+The **Hotel Management Analytics Dashboard** is an interactive Power BI data analytics project designed to analyze hotel booking performance, occupancy, revenue, cancellations, and profitability.
 
-The project demonstrates end-to-end business intelligence by connecting Power BI to Snowflake, transforming and analyzing data, and creating interactive visualizations for better decision-making.
-
----
-
-# 🎯 Objectives
-
-- Analyze hotel revenue and profitability.
-- Monitor occupancy rates across different regions.
-- Compare hotel performance by state and region.
-- Evaluate customer ratings.
-- Track online booking percentages.
-- Support business decisions through interactive dashboards.
+The project transforms raw hotel booking data into meaningful business insights using **SQL, Snowflake, Power Query, and Power BI**. The dashboard helps hotel management understand booking trends, revenue performance, customer behavior, and operational efficiency.
 
 ---
 
-# 🛠️ Technologies Used
+## 🎯 Project Objectives
 
-- Power BI
-- SQL
-- Snowflake
-- DAX
-- Power Query
-
----
-
-# 📊 Dashboard Preview
-
-![Dashboard Overview](Dashboard.png)
+* Analyze hotel booking and reservation trends
+* Monitor key performance indicators (KPIs)
+* Analyze revenue and profit performance
+* Understand occupancy patterns
+* Identify cancellation trends
+* Compare hotel performance over time
+* Provide actionable insights for data-driven decision-making
 
 ---
 
-# 📈 Key Performance Indicators (KPIs)
+## 🛠️ Tools & Technologies
 
-- 💰 Total Revenue
-- 🏨 Hotel Count
-- ⭐ Average Rating
-- 📊 Average Occupancy Rate
-- 💵 Average Profit
-
----
-
-# 📊 Dashboard Features
-
-- Revenue by State
-- Revenue by Region
-- Occupancy Rate by Region
-- Rating Analysis by Region
-- Online Booking Percentage by Region
-- Revenue vs Operating Cost Trend
-- Interactive Hotel Type Filter
+| Tool            | Purpose                                     |
+| --------------- | ------------------------------------------- |
+| **Snowflake**   | Data storage and SQL-based data processing  |
+| **SQL**         | Data querying, transformation, and analysis |
+| **Power Query** | Data cleaning and transformation            |
+| **Power BI**    | Dashboard development and visualization     |
+| **DAX**         | Calculated measures and KPI calculations    |
+| **Excel/CSV**   | Raw data source                             |
 
 ---
 
-# 💡 Key Insights
+## 📌 Key KPIs
 
-- Karnataka generated the highest revenue among all states.
-- The average hotel occupancy rate is above 70%.
-- Revenue distribution varies across different regions.
-- Online bookings contribute significantly to hotel reservations.
-- Revenue and operating costs can be compared yearly to identify business trends.
-- Customer ratings help evaluate hotel service quality.
+The dashboard includes **10+ KPIs**, including:
 
----
-
-# 🚀 Business Benefits
-
-- Helps management monitor hotel performance.
-- Identifies high-performing regions.
-- Supports revenue optimization.
-- Improves occupancy planning.
-- Enables data-driven business decisions.
+* 💰 Total Revenue
+* 📈 Total Profit
+* 🏨 Total Bookings
+* 👥 Total Customers/Guests
+* 🛏️ Occupancy Rate
+* ❌ Cancellation Rate
+* 💵 Average Daily Rate (ADR)
+* 📊 Average Revenue
+* 📅 Monthly Booking Trends
+* 📉 Profit Margin
 
 ---
 
-# 📂 Project Structure
+## 📊 Dashboard Features
 
+### 1. Booking Analysis
+
+* Total bookings
+* Monthly booking trends
+* Booking performance by hotel
+* Customer booking patterns
+
+### 2. Revenue & Profit Analysis
+
+* Total revenue
+* Total profit
+* Profit margin
+* Revenue trends over time
+* Hotel-wise revenue comparison
+
+### 3. Occupancy Analysis
+
+* Occupancy rate
+* Room utilization
+* Monthly occupancy trends
+* Comparison between hotels
+
+### 4. Cancellation Analysis
+
+* Cancellation rate
+* Cancellation trends
+* Hotel-wise cancellation performance
+
+### 5. Interactive Dashboard
+
+The Power BI dashboard includes:
+
+* KPI Cards
+* Bar Charts
+* Line Charts
+* Donut/Pie Charts
+* Slicers
+* Filters
+* Interactive visualizations
+
+Users can filter the dashboard to analyze specific hotels, months, and other business dimensions.
+
+---
+
+## 🔄 Data Analysis Process
+
+```text
+Raw Hotel Data
+      ↓
+Snowflake
+      ↓
+SQL Data Processing
+      ↓
+Power Query
+      ↓
+Data Cleaning & Transformation
+      ↓
+Data Modeling
+      ↓
+DAX Calculations
+      ↓
+Power BI Dashboard
+      ↓
+Business Insights
 ```
+
+---
+
+## 🧹 Data Preparation
+
+The dataset was processed using SQL and Power Query.
+
+Key data preparation activities included:
+
+* Removing unnecessary columns
+* Handling missing values
+* Cleaning inconsistent data
+* Transforming data types
+* Creating calculated columns
+* Creating date/month-related fields
+* Preparing data for visualization
+* Creating relationships between tables
+
+---
+
+## 📐 Data Modeling & DAX
+
+Power BI data modeling was used to establish relationships between relevant tables.
+
+DAX measures were created to calculate important business metrics such as:
+
+* Revenue
+* Profit
+* Profit Margin %
+* Occupancy Rate
+* Booking Count
+* Cancellation Rate
+* Average Revenue
+
+---
+
+## 💡 Key Business Insights
+
+The dashboard can help hotel management identify:
+
+* Which hotels generate the highest revenue
+* Monthly booking and revenue patterns
+* Periods with higher or lower occupancy
+* Cancellation patterns
+* Profitability trends
+* Hotels with stronger operational performance
+* Opportunities to improve revenue and occupancy
+
+---
+
+## 📷 Dashboard Preview
+
+> Add your Power BI dashboard screenshot here.
+
+```text
+![Hotel-Management-Dashboard](Dashboard.png)
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 Hotel-Management-Dashboard-PowerBI/
-│── Hotel_Management_Dashboard.pbix
-│── README.md
-│── dashboard_overview.png
+│
+├── README.md
+│
+├── Dataset/
+│   └── hotel_data.csv
+│
+├── SQL/
+│   └── hotel_analysis.sql
+│
+├── PowerBI/
+│   └── Hotel_Management_Dashboard.pbix
+│
+├── Images/
+│   └── hotel-dashboard.png
+│
+└── Documentation/
+    └── project-documentation.pdf
 ```
 
 ---
 
-# ▶️ How to Use
+## 🚀 Project Outcome
 
-1. Download the `.pbix` file.
-2. Open it using Microsoft Power BI Desktop.
-3. Refresh the data connection if required.
-4. Interact with the dashboard using filters and slicers.
+This project demonstrates practical experience in:
 
----
+* SQL data analysis
+* Snowflake
+* Data cleaning and transformation
+* Power BI dashboard development
+* DAX calculations
+* Data modeling
+* KPI development
+* Business intelligence
+* Data visualization
+* Business insight generation
 
-# 📚 Skills Demonstrated
-
-- Data Analysis
-- Business Intelligence
-- Dashboard Design
-- Data Visualization
-- SQL Querying
-- Snowflake Data Warehousing
-- DAX Calculations
-- Power Query Data Transformation
+The final dashboard converts raw hotel data into an **interactive business intelligence solution** that can support hotel performance monitoring and data-driven decision-making.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Skills Demonstrated
 
-**Sudharsan M M**
+**SQL | Snowflake | Power BI | DAX | Power Query | Data Cleaning | Data Modeling | Data Visualization | KPI Reporting | Business Intelligence | Data Analysis**
 
+---
+
+## 📌 Author
+
+**Sudharsan**
 📧 Email: Sudharsan.m.m344@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/sudharsan344
 
 💻 GitHub: https://github.com/sudharsan344
+
+Aspiring Data Analyst | SQL | Power BI | Excel | Python
+
+---
+
+⭐ If you find this project useful, feel free to explore the repository and provide feedback.
+
+
+
+
