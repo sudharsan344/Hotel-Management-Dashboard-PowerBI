@@ -165,11 +165,9 @@ The dashboard can help hotel management identify:
 
 ## 📷 Dashboard Preview
 
-> Add your Power BI dashboard screenshot here.
 
-```text
+
 ![Hotel-Management-Dashboard](Dashboard.png)
-```
 
 ---
 
